@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #455763;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2e3e4e;
+  color: #d5c9b3;
+  padding: 10px 30px;
+}
+
+header img {
+  height: 35px;
+  width: 35px;
+  margin-right:5px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar {
+  display: flex;
+  gap: 10px;
+  position:relative;
+}
+
+.navbar a {
+  color: #d5c9b3;
+  padding: 10px 11px;
+  text-decoration:solid;
+  font-size: 16px;
+  border-radius: 15px;
+  /* border: 1px solid #003c43; */
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  /* background: #294a60; */
+  color: #3c6064;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.center-box {
+  width: 600px;
+  height: 350px;
+  background-color: #d5c9b3;
+  color: #455763;
+  border-style:ridge;
+  border-width: 5px;
+  text-align: center;
+  margin-top:50px;
+  padding-bottom: 70px;
+  padding-top: 70px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  background-color: #d5c9b3;
+  color: rgb(24, 49, 30);
+  text-align: center;
+  padding: 13px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* aboutme */
+/* #aboutme{
+  text-align:center;
+  color:#2e3e4e;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top:30px;
+} */
+#content{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:large;
+  font-style: italic;
+  text-align:justify;
+  align-items: center;
+  margin-left: 100px;
+  margin-right:100px;
+  padding-bottom:50px;
+  padding-top:30px;
+
+}
+.social-icons {
+            margin-top: 20px;
+        }
+.social-icons a {
+            margin-right: 15px;
+            font-size: 30px;
+            text-decoration: none;
+            color: #455763;
+        }
+.social-icons a:hover {
+            opacity: 0.8;
+        }
+
+.image{
+    color: #d1c3a7;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: ridge;
+    border-color: #d1c3a7;
+    border-width: 3px;
+    padding: 100px;
+    margin-left:300px;
+    margin-right:800px;
+    margin-top: 120px;
+    margin-bottom: 140px;
+}
+.image img{
+      width: 50%;
+      height: auto;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+ details{
+   gap:10px;
+   text-align: justify;
+ }
+
+ fieldset{
+   margin-left: 80px;
+   margin-right: 80px;
+   color: #28333d;
+   font-size: large;
+   align-items:center;
+   padding: 30px;
+   background-color: #d5c9b3;
+   border-radius: 12px;
+ }
+ details{
+  margin-left: 30px;
+  text-align:justify;
+  color: #2e3e4e;
+  list-style-position: inside;
+ }
+legend{
+  color:#28333d;
+  font-style: italic;
+  font-size: x-large;
+  margin-left:15px;
+}
+.content-side {
+ width: 50%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: italic;
+}
+
+.content-side ul {
+ padding-left: 30px;
+}
+
+.content-side a {
+ text-decoration: none;
+ color: #333;
+}
+
+.content-side a:hover {
+color:#455763;
+ text-decoration:none;
+ opacity:0.8;
+}
+ul li{
+  list-style:'🔸';
+}
+/* .flex-container {
+   display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+} */
+/* #academics,
+#projects {
+  width: 50%;
+ height: 200px;
+ background-size: cover;
+  background-position: center;
+ border-radius: 8px;
+}
+#academics{
+  background-image: url('./images/aca.jpg');
+}
+#projects{
+  background-image: url('./images/code.jpg');
+} */
+
+/* #academics{
+ width: 700px;
+ border: 2px solid #aaa;
+ border-radius: 10px;
+ padding: 10px;
+ margin: 30px auto;
+} */
+
+/* .split-box {
+ display: flex;
+ flex-direction: row;
+ gap: 20px;
+} */
+
+/* .image-side {
+ width: 50%;
+ height: 200px;
+ background-size: cover;
+  background-position: center;
+ border-radius: 8px;
+} */
+
